@@ -1,6 +1,6 @@
 @media screen and (max-Width:500px){
 	body{
-	font-size:18px;
+	font-size:16px;
 	line-height:2;
 }
 	
@@ -28,7 +28,7 @@ nav{
 }
 
 #re img{
-	width:70%;
+	width:40%;
 	border-radius:50%;
 }
 #re{
