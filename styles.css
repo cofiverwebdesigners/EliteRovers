@@ -1,0 +1,227 @@
+@media screen and (max-Width:500px){
+	body{
+	font-size:18px;
+	line-height:2;
+}
+	
+	#header{
+	display:none;
+	width:100%;
+	height:15vh;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:13%;
+}
+
+.logo{
+	width:30%;
+}
+.logo img{
+	width:100%;
+	height:15vh;
+}
+#product-showcase img{
+	width:100%;
+}
+nav{
+	width:50%;
+}
+
+#re img{
+	width:70%;
+	border-radius:50%;
+}
+#re{
+	display:flex;
+	align-items:center;
+	width:100%;
+}
+
+#submit{
+	width:50%;
+	height:7vh;
+	cursor:pointer;
+	background:#3AC154;
+	font-weight:bold;
+}
+
+form input{
+	width:90%;
+	height:5vh;
+	border-radius:10px;
+}
+.testimonials i{
+	font-size:0.5em;
+}
+}
+
+@media screen and (min-Width:501px) and (max-Width:991px){
+	
+body{
+	font-size:18px;
+	line-height:2;
+}
+	
+	.logo img{
+	width:100%;
+	height:15vh;
+}
+.logo{
+	width:20%;
+}
+
+nav{
+	width:80%;
+}
+
+#product-showcase img{
+	width:100%;
+}
+#header{
+	display:none;
+	width:100%;
+	height:15vh;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:13%;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:2%;
+}
+
+.testimonials i{
+	font-size:0.5em;
+	}
+
+#re{
+	display:flex;
+}
+
+#re img{
+	width:30%;
+	border-radius:50%;
+}
+form input{
+	width:90%;
+	height:5vh;
+	border-radius:10px;
+}
+#submit{
+	cursor:pointer;
+	background:#3AC154;
+	font-weight:bold;
+}
+
+}
+
+@media screen and (min-Width:992px){
+	.testimonials i{
+	font-size:0.5em;
+	}
+	form{
+	width:80%;
+	height:30vh;
+	display:grid;
+	grid-template-columns:auto auto auto ;
+}
+
+#product-showcase{
+	display:flex;
+}
+
+.testimonials{
+	display:flex;
+	margin-right:2%;
+	width:100%;
+	height:30vh;
+}
+.submain{
+	display:flex;
+}
+
+form input{
+	font-size:18px;
+	width:20vw;
+	height:10vh;
+	border-radius:10px;
+}
+
+
+body{
+	font-size:20px;
+}
+.logo img{
+	margin-top:-3%;
+	width:25%;
+	height:auto;
+}
+
+#header{
+	height:15vh;
+	display:flex;
+}
+.logo{
+	width:30%;
+}
+nav{
+	width:70%;
+}
+
+ul li{
+	margin-right:5%;
+	display:inline-block;
+}
+
+
+#heading{
+	margin-bottom:-1%;
+}
+
+
+#re{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	width:30%;
+}
+#re img{
+	width:50%;
+	border-radius:50%;
+}
+
+#review{
+	width:70%;
+}
+#submit{
+	cursor:pointer;
+	background:#3AC154;
+	font-weight:bold;
+}
+
+.call-to-action{
+	width:70%;
+	line-height:2;
+}
+.Range{
+	margin-top:8%;
+	line-height:2;
+}
+}
+
+
+
+
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+
+
+h3{
+	color:#3AC154;
+	margin:0;
+	padding:0;
+}
