@@ -54,6 +54,13 @@ form input{
 .testimonials i{
 	font-size:0.5em;
 }
+
+.socialmedia{
+	margin-top:-5%;
+	width:16%;
+	display:flex;
+	justify-content:space-between;
+}
 }
 
 @media screen and (min-Width:501px) and (max-Width:991px){
@@ -112,6 +119,12 @@ form input{
 	cursor:pointer;
 	background:#3AC154;
 	font-weight:bold;
+}
+.socialmedia{
+	margin-top:-3%;
+	width:14%;
+	display:flex;
+	justify-content:space-between;
 }
 
 }
@@ -208,9 +221,24 @@ ul li{
 	margin-top:8%;
 	line-height:2;
 }
+#footer{
+	margin-top:5%;
 }
 
 
+.socialmedia{
+	width:7%;
+	display:flex;
+	justify-content:space-between;
+}
+
+}
+
+#copyright{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 
 
 ul{
@@ -225,4 +253,8 @@ h3{
 	color:#3AC154;
 	margin:0;
 	padding:0;
+}
+
+body{
+	background:buttonface;
 }
